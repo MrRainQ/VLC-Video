@@ -11,4 +11,4 @@ VLC-Video
 2. 将AppDelegate.m 的后缀变为.mm
 3. 在Build Settings中搜索C++ Standard Library， 修改其属性为libstdc++(GNU C++ standard library)
 4. 获取MobileVLCKit.framework,并导入项目中
-获取地址：
+获取地址： 链接: http://pan.baidu.com/s/1gdnF54n 密码: n8gi
