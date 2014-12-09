@@ -12,15 +12,42 @@
 		CB9D59071A36ECBE0055BC45 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB9D59061A36ECBE0055BC45 /* UIKit.framework */; };
 		CB9D590D1A36ECBE0055BC45 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CB9D590B1A36ECBE0055BC45 /* InfoPlist.strings */; };
 		CB9D590F1A36ECBE0055BC45 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CB9D590E1A36ECBE0055BC45 /* main.m */; };
-		CB9D59131A36ECBE0055BC45 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CB9D59121A36ECBE0055BC45 /* AppDelegate.m */; };
+		CB9D59131A36ECBE0055BC45 /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = CB9D59121A36ECBE0055BC45 /* AppDelegate.mm */; };
 		CB9D59161A36ECBE0055BC45 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB9D59141A36ECBE0055BC45 /* Main.storyboard */; };
-		CB9D59191A36ECBE0055BC45 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB9D59181A36ECBE0055BC45 /* ViewController.m */; };
 		CB9D591B1A36ECBE0055BC45 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB9D591A1A36ECBE0055BC45 /* Images.xcassets */; };
 		CB9D59221A36ECBE0055BC45 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB9D59211A36ECBE0055BC45 /* XCTest.framework */; };
 		CB9D59231A36ECBE0055BC45 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB9D59021A36ECBE0055BC45 /* Foundation.framework */; };
 		CB9D59241A36ECBE0055BC45 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB9D59061A36ECBE0055BC45 /* UIKit.framework */; };
 		CB9D592C1A36ECBE0055BC45 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CB9D592A1A36ECBE0055BC45 /* InfoPlist.strings */; };
 		CB9D592E1A36ECBE0055BC45 /* VLCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CB9D592D1A36ECBE0055BC45 /* VLCTests.m */; };
+		CB9D593A1A36ECE90055BC45 /* PlayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB9D59381A36ECE90055BC45 /* PlayViewController.m */; };
+		CB9D593B1A36ECE90055BC45 /* PlayViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CB9D59391A36ECE90055BC45 /* PlayViewController.xib */; };
+		CB9D593E1A36ED0D0055BC45 /* ListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB9D593D1A36ED0D0055BC45 /* ListViewController.m */; };
+		CB9D59441A36ED1E0055BC45 /* minion_01.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = CB9D593F1A36ED1E0055BC45 /* minion_01.mp4 */; };
+		CB9D59451A36ED1E0055BC45 /* minion_02.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = CB9D59401A36ED1E0055BC45 /* minion_02.mp4 */; };
+		CB9D59461A36ED1E0055BC45 /* minion_03.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = CB9D59411A36ED1E0055BC45 /* minion_03.mp4 */; };
+		CB9D59471A36ED1E0055BC45 /* minion_04.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = CB9D59421A36ED1E0055BC45 /* minion_04.mp4 */; };
+		CB9D59481A36ED1E0055BC45 /* minion_05.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = CB9D59431A36ED1E0055BC45 /* minion_05.mp4 */; };
+		CB9D594A1A36ED260055BC45 /* videoview_cover@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CB9D59491A36ED260055BC45 /* videoview_cover@2x.png */; };
+		CB9D594F1A36ED5C0055BC45 /* ChannelModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CB9D594C1A36ED5C0055BC45 /* ChannelModel.m */; };
+		CB9D59501A36ED5C0055BC45 /* VideoTool.m in Sources */ = {isa = PBXBuildFile; fileRef = CB9D594E1A36ED5C0055BC45 /* VideoTool.m */; };
+		CB9D59521A36EDB40055BC45 /* MobileVLCKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB9D59511A36EDB40055BC45 /* MobileVLCKit.framework */; };
+		CB9D59551A36EE3B0055BC45 /* ContainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB9D59541A36EE3B0055BC45 /* ContainViewController.m */; };
+		CB9D59581A36EE760055BC45 /* UIView+RQ.m in Sources */ = {isa = PBXBuildFile; fileRef = CB9D59571A36EE760055BC45 /* UIView+RQ.m */; };
+		CB9D595A1A36EF220055BC45 /* libbz2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = CB9D59591A36EF220055BC45 /* libbz2.dylib */; };
+		CB9D595C1A36EF2C0055BC45 /* libstdc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = CB9D595B1A36EF2C0055BC45 /* libstdc++.dylib */; };
+		CB9D595E1A36EF370055BC45 /* libiconv.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = CB9D595D1A36EF370055BC45 /* libiconv.dylib */; };
+		CB9D59601A36EF3E0055BC45 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB9D595F1A36EF3E0055BC45 /* AudioToolbox.framework */; };
+		CB9D596C1A36EFBC0055BC45 /* back@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CB9D59621A36EFBC0055BC45 /* back@2x.png */; };
+		CB9D596D1A36EFBC0055BC45 /* back_press@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CB9D59631A36EFBC0055BC45 /* back_press@2x.png */; };
+		CB9D596E1A36EFBC0055BC45 /* bnt_stop.png in Resources */ = {isa = PBXBuildFile; fileRef = CB9D59641A36EFBC0055BC45 /* bnt_stop.png */; };
+		CB9D596F1A36EFBC0055BC45 /* fullscreen.png in Resources */ = {isa = PBXBuildFile; fileRef = CB9D59651A36EFBC0055BC45 /* fullscreen.png */; };
+		CB9D59701A36EFBC0055BC45 /* play_next.png in Resources */ = {isa = PBXBuildFile; fileRef = CB9D59661A36EFBC0055BC45 /* play_next.png */; };
+		CB9D59711A36EFBC0055BC45 /* play_prev.png in Resources */ = {isa = PBXBuildFile; fileRef = CB9D59671A36EFBC0055BC45 /* play_prev.png */; };
+		CB9D59721A36EFBC0055BC45 /* smallscreen.png in Resources */ = {isa = PBXBuildFile; fileRef = CB9D59681A36EFBC0055BC45 /* smallscreen.png */; };
+		CB9D59731A36EFBC0055BC45 /* start_play.png in Resources */ = {isa = PBXBuildFile; fileRef = CB9D59691A36EFBC0055BC45 /* start_play.png */; };
+		CB9D59741A36EFBC0055BC45 /* videoview_cover.png in Resources */ = {isa = PBXBuildFile; fileRef = CB9D596A1A36EFBC0055BC45 /* videoview_cover.png */; };
+		CB9D59751A36EFBC0055BC45 /* zap_chan.png in Resources */ = {isa = PBXBuildFile; fileRef = CB9D596B1A36EFBC0055BC45 /* zap_chan.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,16 +70,48 @@
 		CB9D590E1A36ECBE0055BC45 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		CB9D59101A36ECBE0055BC45 /* VLC-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "VLC-Prefix.pch"; sourceTree = "<group>"; };
 		CB9D59111A36ECBE0055BC45 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		CB9D59121A36ECBE0055BC45 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CB9D59121A36ECBE0055BC45 /* AppDelegate.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = AppDelegate.mm; sourceTree = "<group>"; };
 		CB9D59151A36ECBE0055BC45 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		CB9D59171A36ECBE0055BC45 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		CB9D59181A36ECBE0055BC45 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		CB9D591A1A36ECBE0055BC45 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		CB9D59201A36ECBE0055BC45 /* VLCTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VLCTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB9D59211A36ECBE0055BC45 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		CB9D59291A36ECBE0055BC45 /* VLCTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "VLCTests-Info.plist"; sourceTree = "<group>"; };
 		CB9D592B1A36ECBE0055BC45 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		CB9D592D1A36ECBE0055BC45 /* VLCTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VLCTests.m; sourceTree = "<group>"; };
+		CB9D59371A36ECE90055BC45 /* PlayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayViewController.h; sourceTree = "<group>"; };
+		CB9D59381A36ECE90055BC45 /* PlayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayViewController.m; sourceTree = "<group>"; };
+		CB9D59391A36ECE90055BC45 /* PlayViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PlayViewController.xib; sourceTree = "<group>"; };
+		CB9D593C1A36ED0D0055BC45 /* ListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListViewController.h; sourceTree = "<group>"; };
+		CB9D593D1A36ED0D0055BC45 /* ListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListViewController.m; sourceTree = "<group>"; };
+		CB9D593F1A36ED1E0055BC45 /* minion_01.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = minion_01.mp4; sourceTree = "<group>"; };
+		CB9D59401A36ED1E0055BC45 /* minion_02.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = minion_02.mp4; sourceTree = "<group>"; };
+		CB9D59411A36ED1E0055BC45 /* minion_03.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = minion_03.mp4; sourceTree = "<group>"; };
+		CB9D59421A36ED1E0055BC45 /* minion_04.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = minion_04.mp4; sourceTree = "<group>"; };
+		CB9D59431A36ED1E0055BC45 /* minion_05.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = minion_05.mp4; sourceTree = "<group>"; };
+		CB9D59491A36ED260055BC45 /* videoview_cover@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "videoview_cover@2x.png"; sourceTree = "<group>"; };
+		CB9D594B1A36ED5C0055BC45 /* ChannelModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChannelModel.h; sourceTree = "<group>"; };
+		CB9D594C1A36ED5C0055BC45 /* ChannelModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChannelModel.m; sourceTree = "<group>"; };
+		CB9D594D1A36ED5C0055BC45 /* VideoTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoTool.h; sourceTree = "<group>"; };
+		CB9D594E1A36ED5C0055BC45 /* VideoTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoTool.m; sourceTree = "<group>"; };
+		CB9D59511A36EDB40055BC45 /* MobileVLCKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MobileVLCKit.framework; sourceTree = "<group>"; };
+		CB9D59531A36EE3B0055BC45 /* ContainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContainViewController.h; sourceTree = "<group>"; };
+		CB9D59541A36EE3B0055BC45 /* ContainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContainViewController.m; sourceTree = "<group>"; };
+		CB9D59561A36EE760055BC45 /* UIView+RQ.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+RQ.h"; sourceTree = "<group>"; };
+		CB9D59571A36EE760055BC45 /* UIView+RQ.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+RQ.m"; sourceTree = "<group>"; };
+		CB9D59591A36EF220055BC45 /* libbz2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libbz2.dylib; path = usr/lib/libbz2.dylib; sourceTree = SDKROOT; };
+		CB9D595B1A36EF2C0055BC45 /* libstdc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libstdc++.dylib"; path = "usr/lib/libstdc++.dylib"; sourceTree = SDKROOT; };
+		CB9D595D1A36EF370055BC45 /* libiconv.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libiconv.dylib; path = usr/lib/libiconv.dylib; sourceTree = SDKROOT; };
+		CB9D595F1A36EF3E0055BC45 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		CB9D59621A36EFBC0055BC45 /* back@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "back@2x.png"; sourceTree = "<group>"; };
+		CB9D59631A36EFBC0055BC45 /* back_press@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "back_press@2x.png"; sourceTree = "<group>"; };
+		CB9D59641A36EFBC0055BC45 /* bnt_stop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bnt_stop.png; sourceTree = "<group>"; };
+		CB9D59651A36EFBC0055BC45 /* fullscreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fullscreen.png; sourceTree = "<group>"; };
+		CB9D59661A36EFBC0055BC45 /* play_next.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = play_next.png; sourceTree = "<group>"; };
+		CB9D59671A36EFBC0055BC45 /* play_prev.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = play_prev.png; sourceTree = "<group>"; };
+		CB9D59681A36EFBC0055BC45 /* smallscreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = smallscreen.png; sourceTree = "<group>"; };
+		CB9D59691A36EFBC0055BC45 /* start_play.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = start_play.png; sourceTree = "<group>"; };
+		CB9D596A1A36EFBC0055BC45 /* videoview_cover.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = videoview_cover.png; sourceTree = "<group>"; };
+		CB9D596B1A36EFBC0055BC45 /* zap_chan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = zap_chan.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,9 +119,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CB9D59601A36EF3E0055BC45 /* AudioToolbox.framework in Frameworks */,
+				CB9D595E1A36EF370055BC45 /* libiconv.dylib in Frameworks */,
+				CB9D595C1A36EF2C0055BC45 /* libstdc++.dylib in Frameworks */,
+				CB9D595A1A36EF220055BC45 /* libbz2.dylib in Frameworks */,
 				CB9D59051A36ECBE0055BC45 /* CoreGraphics.framework in Frameworks */,
 				CB9D59071A36ECBE0055BC45 /* UIKit.framework in Frameworks */,
 				CB9D59031A36ECBE0055BC45 /* Foundation.framework in Frameworks */,
+				CB9D59521A36EDB40055BC45 /* MobileVLCKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -101,6 +165,10 @@
 		CB9D59011A36ECBE0055BC45 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				CB9D595F1A36EF3E0055BC45 /* AudioToolbox.framework */,
+				CB9D595D1A36EF370055BC45 /* libiconv.dylib */,
+				CB9D595B1A36EF2C0055BC45 /* libstdc++.dylib */,
+				CB9D59591A36EF220055BC45 /* libbz2.dylib */,
 				CB9D59021A36ECBE0055BC45 /* Foundation.framework */,
 				CB9D59041A36ECBE0055BC45 /* CoreGraphics.framework */,
 				CB9D59061A36ECBE0055BC45 /* UIKit.framework */,
@@ -113,10 +181,16 @@
 			isa = PBXGroup;
 			children = (
 				CB9D59111A36ECBE0055BC45 /* AppDelegate.h */,
-				CB9D59121A36ECBE0055BC45 /* AppDelegate.m */,
+				CB9D59121A36ECBE0055BC45 /* AppDelegate.mm */,
 				CB9D59141A36ECBE0055BC45 /* Main.storyboard */,
-				CB9D59171A36ECBE0055BC45 /* ViewController.h */,
-				CB9D59181A36ECBE0055BC45 /* ViewController.m */,
+				CB9D59771A36F1040055BC45 /* Libs */,
+				CB9D593C1A36ED0D0055BC45 /* ListViewController.h */,
+				CB9D593D1A36ED0D0055BC45 /* ListViewController.m */,
+				CB9D59531A36EE3B0055BC45 /* ContainViewController.h */,
+				CB9D59541A36EE3B0055BC45 /* ContainViewController.m */,
+				CB9D59371A36ECE90055BC45 /* PlayViewController.h */,
+				CB9D59381A36ECE90055BC45 /* PlayViewController.m */,
+				CB9D59391A36ECE90055BC45 /* PlayViewController.xib */,
 				CB9D591A1A36ECBE0055BC45 /* Images.xcassets */,
 				CB9D59091A36ECBE0055BC45 /* Supporting Files */,
 			);
@@ -126,6 +200,7 @@
 		CB9D59091A36ECBE0055BC45 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				CB9D59761A36F0F00055BC45 /* Resource */,
 				CB9D590A1A36ECBE0055BC45 /* VLC-Info.plist */,
 				CB9D590B1A36ECBE0055BC45 /* InfoPlist.strings */,
 				CB9D590E1A36ECBE0055BC45 /* main.m */,
@@ -150,6 +225,51 @@
 				CB9D592A1A36ECBE0055BC45 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CB9D59611A36EFBC0055BC45 /* image */ = {
+			isa = PBXGroup;
+			children = (
+				CB9D59621A36EFBC0055BC45 /* back@2x.png */,
+				CB9D59631A36EFBC0055BC45 /* back_press@2x.png */,
+				CB9D59641A36EFBC0055BC45 /* bnt_stop.png */,
+				CB9D59651A36EFBC0055BC45 /* fullscreen.png */,
+				CB9D59661A36EFBC0055BC45 /* play_next.png */,
+				CB9D59671A36EFBC0055BC45 /* play_prev.png */,
+				CB9D59681A36EFBC0055BC45 /* smallscreen.png */,
+				CB9D59691A36EFBC0055BC45 /* start_play.png */,
+				CB9D596A1A36EFBC0055BC45 /* videoview_cover.png */,
+				CB9D596B1A36EFBC0055BC45 /* zap_chan.png */,
+			);
+			path = image;
+			sourceTree = "<group>";
+		};
+		CB9D59761A36F0F00055BC45 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				CB9D59611A36EFBC0055BC45 /* image */,
+				CB9D59511A36EDB40055BC45 /* MobileVLCKit.framework */,
+				CB9D59491A36ED260055BC45 /* videoview_cover@2x.png */,
+				CB9D593F1A36ED1E0055BC45 /* minion_01.mp4 */,
+				CB9D59401A36ED1E0055BC45 /* minion_02.mp4 */,
+				CB9D59411A36ED1E0055BC45 /* minion_03.mp4 */,
+				CB9D59421A36ED1E0055BC45 /* minion_04.mp4 */,
+				CB9D59431A36ED1E0055BC45 /* minion_05.mp4 */,
+			);
+			name = Resource;
+			sourceTree = "<group>";
+		};
+		CB9D59771A36F1040055BC45 /* Libs */ = {
+			isa = PBXGroup;
+			children = (
+				CB9D594B1A36ED5C0055BC45 /* ChannelModel.h */,
+				CB9D594C1A36ED5C0055BC45 /* ChannelModel.m */,
+				CB9D594D1A36ED5C0055BC45 /* VideoTool.h */,
+				CB9D594E1A36ED5C0055BC45 /* VideoTool.m */,
+				CB9D59561A36EE760055BC45 /* UIView+RQ.h */,
+				CB9D59571A36EE760055BC45 /* UIView+RQ.m */,
+			);
+			name = Libs;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -228,9 +348,26 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CB9D596C1A36EFBC0055BC45 /* back@2x.png in Resources */,
+				CB9D593B1A36ECE90055BC45 /* PlayViewController.xib in Resources */,
+				CB9D59711A36EFBC0055BC45 /* play_prev.png in Resources */,
+				CB9D596F1A36EFBC0055BC45 /* fullscreen.png in Resources */,
+				CB9D59721A36EFBC0055BC45 /* smallscreen.png in Resources */,
+				CB9D59471A36ED1E0055BC45 /* minion_04.mp4 in Resources */,
+				CB9D59461A36ED1E0055BC45 /* minion_03.mp4 in Resources */,
 				CB9D591B1A36ECBE0055BC45 /* Images.xcassets in Resources */,
+				CB9D596E1A36EFBC0055BC45 /* bnt_stop.png in Resources */,
+				CB9D59441A36ED1E0055BC45 /* minion_01.mp4 in Resources */,
+				CB9D59701A36EFBC0055BC45 /* play_next.png in Resources */,
+				CB9D59481A36ED1E0055BC45 /* minion_05.mp4 in Resources */,
+				CB9D59741A36EFBC0055BC45 /* videoview_cover.png in Resources */,
+				CB9D596D1A36EFBC0055BC45 /* back_press@2x.png in Resources */,
 				CB9D590D1A36ECBE0055BC45 /* InfoPlist.strings in Resources */,
+				CB9D59731A36EFBC0055BC45 /* start_play.png in Resources */,
+				CB9D594A1A36ED260055BC45 /* videoview_cover@2x.png in Resources */,
 				CB9D59161A36ECBE0055BC45 /* Main.storyboard in Resources */,
+				CB9D59451A36ED1E0055BC45 /* minion_02.mp4 in Resources */,
+				CB9D59751A36EFBC0055BC45 /* zap_chan.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,9 +386,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CB9D59191A36ECBE0055BC45 /* ViewController.m in Sources */,
-				CB9D59131A36ECBE0055BC45 /* AppDelegate.m in Sources */,
+				CB9D59551A36EE3B0055BC45 /* ContainViewController.m in Sources */,
+				CB9D593E1A36ED0D0055BC45 /* ListViewController.m in Sources */,
+				CB9D59501A36ED5C0055BC45 /* VideoTool.m in Sources */,
+				CB9D593A1A36ECE90055BC45 /* PlayViewController.m in Sources */,
+				CB9D59131A36ECBE0055BC45 /* AppDelegate.mm in Sources */,
+				CB9D59581A36EE760055BC45 /* UIView+RQ.m in Sources */,
 				CB9D590F1A36ECBE0055BC45 /* main.m in Sources */,
+				CB9D594F1A36ED5C0055BC45 /* ChannelModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -376,6 +518,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_CXX_LIBRARY = "libstdc++";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/VLC",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "VLC/VLC-Prefix.pch";
 				INFOPLIST_FILE = "VLC/VLC-Info.plist";
@@ -389,6 +536,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_CXX_LIBRARY = "libstdc++";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/VLC",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "VLC/VLC-Prefix.pch";
 				INFOPLIST_FILE = "VLC/VLC-Info.plist";
